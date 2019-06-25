@@ -6,7 +6,7 @@ import java.net.URL;
 
 public class LeagueFunctions {
     //  Need to find a way to update key automatically
-    static String riotKey = "RGAPI-efc45e3d-d57e-492e-a8ea-44676d09d045";
+    static String riotKey = tokens.riotAPIKey;
 
     //  URL's to get summoner info through Riot API
     static String summonerV4 = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/";

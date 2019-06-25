@@ -12,8 +12,7 @@ import java.util.List;
 public class Main extends ListenerAdapter {
     public static void main (String args[]) throws LoginException {
         JDABuilder builder = new JDABuilder(AccountType.BOT);
-        String token = "NTkyMTQ3MTU2OTMzMTQ4Njcz.XQ-XQg.YqcHlrBfn9KTJsm6OeFCZS_d6uA";
-        builder.setToken(token);
+        builder.setToken(tokens.token);
         builder.addEventListener(new Main());
         builder.buildAsync();
     }
